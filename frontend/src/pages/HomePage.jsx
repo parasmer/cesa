@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className=" min-h-[70vh]  w-full bg-gray-100 flex items-center justify-center"
+      <section id="home" className=" h-auto  w-full bg-gray-100 flex items-center justify-center"
       >
         <div
         className="absolute inset-0"
