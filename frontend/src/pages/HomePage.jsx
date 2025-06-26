@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className="pt-[70px] min-h-screen  w-full bg-gray-100 flex items-center justify-center"
+      <section id="home" className="pt-[70px] h-auto  w-full bg-gray-100 flex items-center justify-center"
       >
         <div
         className="absolute inset-0"
@@ -43,7 +43,7 @@ const HomePage = () => {
       </div>
       </section>
 
-      <section id="about-us" className="pt-[70px] pb-[70px] min-h-[120vh] w-full bg-gray-500 ">
+      <section id="about-us" className="pt-[70px] pb-[70px] h-auto w-full bg-gray-500 ">
        
        
           
