@@ -27,23 +27,21 @@ const HomePage = () => {
   return (
     <>
       <section id="home" className="w-full bg-gray-100 flex items-center justify-center relative py-28 sm:py-36 md:py-44"
-      >
-        <div
-        className="absolute inset-0"
-        style={{
+         style={{
           backgroundImage: `url(${bgimg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.2, // Adjust to your liking
           zIndex: 0,
         }}
-      ></div>
+      >
+       
       <div className="relative z-10 text-center">
         <h1 className="text-5xl font-bold text-gray-800">CESA MANIT</h1>
       </div>
       </section>
 
-      <section id="about-us" className="pt-[70px] pb-[70px] min-h-screen w-full bg-gray-500 ">
+      <section id="about-us" className="py-20 w-full bg-gray-500 ">
        
        
           
