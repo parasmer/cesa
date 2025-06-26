@@ -28,7 +28,7 @@ const HomePage = () => {
     <>
       <section id="home" className="w-full bg-gray-100  flex items-center justify-center relative py-28 sm:py-36 md:py-44"
          style={{
-           height:100vh,
+           height:auto,
           backgroundImage: `url(${bgimg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
