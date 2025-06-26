@@ -28,7 +28,7 @@ const HomePage = () => {
     <>
       <section id="home" className="pt-[70px] min-h-screen  w-full bg-gray-100 flex items-center justify-center "
          style={{
-           height:auto,
+         
           backgroundImage: `url(${bgimg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
