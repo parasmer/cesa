@@ -43,7 +43,7 @@ const HomePage = () => {
       </div>
       </section>
 
-      <section id="about-us" className="pt-[70px] pb-[70px] min-h-[120vh] w-full bg-gray-500 ">
+      <section id="about-us" className="pt-[70px]  min-h-[120vh] w-full bg-gray-500 ">
        
        
           
