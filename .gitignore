@@ -1,5 +1,5 @@
 # 🔐 Ignore Firebase credentials
-*.json
+
 # prevent secret file from being pushed
 backend/firebase-key.json
 
