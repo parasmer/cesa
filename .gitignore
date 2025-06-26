@@ -1,6 +1,8 @@
 # 🔐 Ignore Firebase credentials
 *.json
-backend/cesa-website-a696a-firebase-adminsdk-fbsvc-3b013d123a.json
+# prevent secret file from being pushed
+backend/firebase-key.json
+
 
 # Optional: also ignore env files and other sensitive stuff
 .env
