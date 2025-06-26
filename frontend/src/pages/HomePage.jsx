@@ -28,16 +28,6 @@ const HomePage = () => {
     <>
       <section id="home" className="pt-[70px] pb-[10px] sm:h-[60vh] h-[100vh]  w-full bg-gray-100 flex items-center justify-center"
       >
-        <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${bgimg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          opacity: 0.2, // Adjust to your liking
-          zIndex: 0,
-        }}
-      ></div>
       <div className="relative z-10 text-center">
         <h1 className="text-5xl font-bold text-gray-800">CESA MANIT</h1>
       </div>
