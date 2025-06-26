@@ -98,7 +98,8 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto flex flex-col justify-center items-center gap-8">
       
           {/* Address and Contact */}
-          <div className="w-[50vw] flex flex-col sm:flex-row items-start justify-between text-lg font-medium gap-6">
+        <div className="w-full flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-between text-lg font-medium gap-6 px-4">
+
       
             
             {/* Address */}
