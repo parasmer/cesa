@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className="pt-[70px] sm:h-[60vh] h-[100vh]  w-full bg-gray-100 flex items-center justify-center"
+      <section id="home" className="pt-[70px] pb-[10px] sm:h-[60vh] h-[100vh]  w-full bg-gray-100 flex items-center justify-center"
       >
         <div
         className="absolute inset-0"
