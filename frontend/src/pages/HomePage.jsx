@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className="pt-[70px] pb-[10px] sm:min-h-[40vh] lg:min-h-screen  w-full bg-gray-100 flex items-center justify-center"
+      <section id="home" className="pt-[70px] pb-[10px] sm:min-h-[40vh] min-h-screen  w-full bg-gray-100 flex items-center justify-center"
       >
       <div className="relative z-10 text-center">
         <h1 className="text-5xl font-bold text-gray-800">CESA MANIT</h1>
