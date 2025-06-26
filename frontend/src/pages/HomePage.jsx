@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className="pt-[70px] min-h-screen  w-full bg-gray-100 flex items-center justify-center"
+      <section id="home" className="pt-[70px] sm:h-[60vh] h-[100vh]  w-full bg-gray-100 flex items-center justify-center"
       >
         <div
         className="absolute inset-0"
@@ -43,13 +43,13 @@ const HomePage = () => {
       </div>
       </section>
 
-      <section id="about-us" className="pt-[70px]  min-h-screen w-full bg-gray-500 ">
+      <section id="about-us" className="pt-[70px] pb-16 w-full bg-gray-500 ">
        
        
           
        
 {/*div1*/}
- <div className="ml-4 mr-6 mt-20 flex flex-col justify-center items-center border rounded-xl bg-blue-200 p-6 gap-6">
+<div className="mx-4 mt-10 mb-4 flex flex-col justify-center items-center border rounded-xl bg-blue-200 p-6 gap-6">
   {/* Heading - Always on top */}
 {/* default size is 4xl small screen text-3xl greater than size 640px and less than 768px ,medium screen text 4xl size greater than 768px */ }
   <h1 className="text-4xl sm:text-3xl md:text-4xl  font-bold text-white text-center mt-10  mb-10">
