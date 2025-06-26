@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className="w-full bg-gray-100  flex items-center justify-center relative "
+      <section id="home" className="w-full bg-gray-100 pt-[70px] pb-[70px] flex items-center justify-center relative "
          style={{
            height:auto,
           backgroundImage: `url(${bgimg})`,
