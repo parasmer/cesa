@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="home" className="w-full bg-gray-100 h-auto flex items-center justify-center relative py-28 sm:py-36 md:py-44"
+      <section id="home" className="w-full bg-gray-100 h-[100vh] flex items-center justify-center relative py-28 sm:py-36 md:py-44"
          style={{
           backgroundImage: `url(${bgimg})`,
           backgroundSize: 'cover',
