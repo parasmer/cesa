@@ -56,7 +56,7 @@ if (!querySnapshot.empty) {
     }
 
     try {
-      await axios.post("`${import.meta.env.VITE_BASE_URL}/send-confirmation", {
+      await axios.post(`${import.meta.env.VITE_BASE_URL}/send-confirmation`, {
         name: data.name,
         to: trimmedEmail,
         phone: data.phone,
