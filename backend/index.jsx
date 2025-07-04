@@ -65,43 +65,7 @@ app.post("/send-confirmation", async (req, res) => {
 
 
 
-// Registration and login logic
 
-app.post("/register", async (req, res) => {
-  const { firstName, lastName, email, password, confirmPassword } = req.body;
-
-  // Basic validation
-  if (!firstName || !lastName || !email || !password || !confirmPassword) {
-    return res.status(400).json({ message: "All fields are required." });
-  }
-
-  if (password !== confirmPassword) {
-    return res.status(400).json({ message: "Passwords do not match." });
-  }
-
-  // Optional: Check for existing user
-  const existing = users.find((u) => u.email === email);
-  if (existing) {
-    return res.status(409).json({ message: "User already exists." });
-  }
-  try{
-    const hashedPassword = await bcrypt.hash(password, 10);
-      await db.collection("users").add({ 
-        firstName, 
-        lastName,
-        email, 
-        password:hashedPassword,
-      }); 
- return res.status(201).json({ 
-  success:true,
-  message: "User registered successfully." });
-
-  }
-  catch(error){
-    console.error("❌ Error:", error);
-    return res.status(500).json({ message: "Registration failed." });
-  }
-});
   // Add to in-memory storage (or save to Firestore)
  
 
