@@ -38,6 +38,7 @@ const CouncilPage = () => {
         const fetchPromises = memberPaths.map((path) => {
           const docRef = doc(db, "Council Members", path.year, path.subcollection, path.docId);
           console.log("📍Fetching:", docRef.path);
+          // api call
           return getDoc(docRef);
         });
 
