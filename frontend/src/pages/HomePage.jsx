@@ -50,7 +50,7 @@ const HomePage = () => {
           </p>
           
           {/* Floating Action Button */}
-          <div className="mt-12 animate-bounce-slow">
+{/*           <div className="mt-12 animate-bounce-slow">
             <a 
               href="http://localhost:5173/#/council" 
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full shadow-2xl hover:shadow-cyan-500/25 hover:scale-110 transition-all duration-300 group"
@@ -60,7 +60,7 @@ const HomePage = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Scroll Indicator */}
