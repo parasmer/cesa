@@ -15,6 +15,7 @@ const CouncilPage = () => {
     { year: "cesa 4th year", subcollection: "Siddhanta", docId: "Siddhanta1" },
     { year: "cesa 4th year", subcollection: "Anshika", docId: "Anshika1" },
     { year: "cesa 4th year", subcollection: "Bobby", docId: "Bobby1" },
+    { year: "cesa 4th year", subcollection: "Raj", docId: "Raj1" },
 
     // 3rd year members
     { year: "cesa 3rd year", subcollection: "Yashaswi", docId: "Yashaswi1" },
